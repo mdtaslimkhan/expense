@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "tabdrawer",
-    "slug": "tabdrawer",
-    "version": "1.0.0",
+    "slug": "expense",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -10,19 +10,54 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00ff00"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#00ff00"
+      },
+      "package": "com.adsalam.expense",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "runtimeVersion": "1.5.2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-sqlite"
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "adsalam"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b37df72b-d96d-4992-85dd-41907a5254f8"
+      }
+    },
+    "owner": "adsalam",
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/b37df72b-d96d-4992-85dd-41907a5254f8",
+      "requestHeaders": {
+        "expo-channel-name": "production",
+        "platform": "android"
+      },
+      "checkAutomatically": "NEVER",
+      "fallbackToCacheTimeout": 0
     }
   }
 }

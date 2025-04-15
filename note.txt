@@ -1,0 +1,43 @@
+
+
+to cteate eas project  
+
+eas init --id b37df72b-d96d-4992-85dd-41907a5254f8
+
+eas build:configure
+
+eas.json
+"preview"
+"buildType" : "apk"
+
+eas build -p android --profile preview
+
+ "updates": {
+      "url": "https://u.expo.dev/b37df72b-d96d-4992-85dd-41907a5254f8",
+      "requestHeaders" : {
+        "expo-runtime-version":"1.4.2",
+        "expo-channel-name":"production",
+        "platform" : "android"
+      }
+}
+
+eas build --profile production  --platform android
+
+eas update --channel production --message "app call"
+
+
+
+try to understand what is happening
+eas update --branch main --message "app update version 2.0.1" 
+eas update:configure 
+ eas channel:edit  
+ eas build:list   
+ eas build -p android    
+ eas update --channel production --message "smalll loader  adde" 
+
+ local android
+
+ npx expo run:android
+
+
+
