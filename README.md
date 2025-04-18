@@ -2,6 +2,7 @@
 
 A simple and efficient Expense Tracker application built with React (or React Native), using **Redux** for state management and **SQLite** for local data storage. This app allows users to track income and expenses, categorize transactions, and view summaries.
 
+
 ## 🧠 Features
 
 - 📝 Add, edit, and delete income/expense transactions
@@ -73,25 +74,6 @@ src/
 └── App.js
 ```
 
-## 🧠 Redux State Example
-
-```js
-{
-  transactions: [
-    {
-      id: 1,
-      type: 'expense',
-      category: 'Food',
-      amount: 20,
-      date: '2025-04-17',
-      note: 'Lunch'
-    },
-    ...
-  ],
-  totalIncome: 1000,
-  totalExpense: 450,
-}
-```
 
 ## 💽 SQLite Setup
 
@@ -123,7 +105,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Made with ❤️ by [Your Name](https://github.com/mdtaslimkhan)
-- Project Link: (https://github.com/mdtaslimkhan/fieldmanagement)
+- Project Link: (https://github.com/mdtaslimkhan/expense)
 ```
 
 ---
