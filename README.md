@@ -12,6 +12,8 @@ A simple and efficient Expense Tracker application built with React (or React Na
 - ⚛️ Global state management with Redux
 - 📱 (Optional) Mobile support with React Native
 
+## 🚀 Screens
+
 ![Images!](assets/screen/sqlite.png)
 
 ## 🛠️ Tech Stack
