@@ -106,7 +106,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/mdtaslimkhan)
+Made with ❤️ by [Md Taslim Khan](https://github.com/mdtaslimkhan)
 - Project Link: (https://github.com/mdtaslimkhan/expense)
 ```
 
