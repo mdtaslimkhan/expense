@@ -111,5 +111,3 @@ Made with ❤️ by [Your Name](https://github.com/mdtaslimkhan)
 ```
 
 ---
-
-Let me know if you're using **React Native**, **Electron**, or anything else specific — I can tailor the README further for that setup.

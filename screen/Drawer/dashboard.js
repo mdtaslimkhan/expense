@@ -25,6 +25,7 @@ function Dashboard ({navigation, route}){
     function onCreateAction() {
         navigation.navigate('Createnote');
     }
+    
     async function getData(){
         const expdata = await fetchData();
         setExp(expdata);
